@@ -1,0 +1,29 @@
+// these is how we diclare the variables in typescript
+let age: number = 30;
+const name: string = "abdi";
+// and these is symplly i explored the operators
+const x: number = 10;
+const y: number = 5;
+
+const sum: number = x + y;
+const difference: number = x - y;
+const product: number = x * y;
+const quotient: number = x / y;
+
+console.log("Addition:", sum);
+console.log("Subtraction:", difference);
+console.log("Multiplication:", product);
+console.log("Division:", quotient);
+// and finally we can concatinate strings in typescript by using two methodes
+
+const str1: string = "Hello";
+const str2: string = "World";
+
+const concatenated: string = str1 + " " + str2;
+console.log(concatenated); 
+// the other way is these
+const str1: string = "Hello";
+const str2: string = "World";
+
+const concatenated: string = `${str1} ${str2}`;
+console.log(concatenated); 

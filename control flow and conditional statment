@@ -1,0 +1,52 @@
+// these is conditional statment example
+const x: number = 10;
+
+if (x > 5) {
+  console.log("x is greater than 5");
+}
+// aditional example
+const x: number = 10;
+
+if (x > 5) {
+  console.log("x is greater than 5");
+} else {
+  console.log("x is less than or equal to 5");
+}
+//these is our switch example and controle flow
+const dayOfWeek: number = 3;
+let dayName: string;
+
+switch (dayOfWeek) {
+  case 1:
+    dayName = "Sunday";
+    break;
+  case 2:
+    dayName = "Monday";
+    break;
+  case 3:
+    dayName = "Tuesday";
+    break;
+  default:
+    dayName = "Unknown";
+    break;
+}
+
+console.log("Today is " + dayName);
+// these is my example for for 
+for (let i: number = 0; i < 5; i++) {
+  console.log(i);
+}
+// these is for while
+let i: number = 0;
+
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+// these is do while
+let i: number = 0;
+
+do {
+  console.log(i);
+  i++;
+} while (i < 5);

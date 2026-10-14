@@ -1,0 +1,16 @@
+//i am trying to create object
+const person = {
+  name: "abdi",
+  age: 22,
+  profession: "software Engineer",
+};
+// these is how we can access our object values
+console.log(person.name); 
+console.log(person['age']); 
+// finally we can manupulate like these
+person.city = "addiss ababa"; 
+person.age = 31; 
+delete person.profession; 
+
+console.log(person);
+// after manipulation the output will be like these { name: "Abdi", age: 31, city: "addiss ababa" }

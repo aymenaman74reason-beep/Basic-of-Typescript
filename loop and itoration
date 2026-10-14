@@ -1,0 +1,19 @@
+interface Transaction {
+  itemName: string;
+  saleAmount: number;
+}
+
+const transactions: Transaction[] = [
+  { itemName: "Product A", saleAmount: 100 },
+  { itemName: "Product B", saleAmount: 50 },
+  { itemName: "Product C", saleAmount: 75 },
+  { itemName: "Product D", saleAmount: 120 },
+];
+
+let totalSales: number = 0;
+
+for (const transaction of transactions) {
+  totalSales += transaction.saleAmount;
+}
+
+console.log("Total sales: $" + totalSales);

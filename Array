@@ -1,0 +1,18 @@
+// here is how we declar array by typescript
+const numbers: number[] = [1, 2, 3, 4, 5];
+const fruits: string[] = ["apple", "banana", "orange"];
+const mixed: (number | string)[] = [1, "two", 3, "four"];
+// here is how we can access our array element
+
+console.log(fruits[0]); 
+console.log(fruits[1]); 
+console.log(fruits[2]); 
+//here we will talk about array manupulatiion
+fruits.push("grape"); 
+console.log(fruits); 
+fruits.pop(); 
+console.log(fruits); 
+fruits.splice(1, 1); 
+console.log(fruits); 
+fruits[0] = "kiwi";
+console.log(fruits); 

@@ -1,0 +1,11 @@
+// these is my example on function
+function calculateRectangleArea(width: number, height: number): number {
+  const area = width * height;
+  return area;
+}
+
+const width = 5;
+const height = 10;
+const rectangleArea = calculateRectangleArea(width, height);
+
+console.log("Rectangle area:", rectangleArea);
